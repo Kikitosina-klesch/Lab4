@@ -8,6 +8,7 @@ namespace Test
         {
 
 
+
             Console.WriteLine("}{ola Amouuur...!");
 
 
@@ -26,6 +27,10 @@ namespace Test
             double res3 = A * B;
 
             Console.WriteLine("Результат умножения А и В - " + Convert.ToString(res3));
+
+
+            double res4 = A / B;
+            Console.WriteLine("Результат деления А на В - "+ Convert.ToString(res4));
 
         }
     }
