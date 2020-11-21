@@ -6,6 +6,7 @@ namespace Test
     {
         static void Main(string[] args)
         {
+
             Console.WriteLine("}{ola Amouuur...!");
 
 
@@ -15,6 +16,10 @@ namespace Test
 
             Console.WriteLine("Вводи число B ");
             double B = Convert.ToDouble(Console.ReadLine());
+
+
+            double res2 = A - B;
+            Console.WriteLine("Результат вычитания А и В - " + Convert.ToString(res2));
 
         }
     }
