@@ -6,7 +6,9 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("}{ola Amouuur...!");
+            double res3 = A + B;
+
+            Console.WriteLine("Результат умножения А и В - " + Convert.ToString(res3));
         }
     }
 }
