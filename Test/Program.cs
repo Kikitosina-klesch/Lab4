@@ -23,7 +23,7 @@ namespace Test
             Console.WriteLine("Результат вычитания А и В - " + Convert.ToString(res2));
 
 
-            double res3 = A + B;
+            double res3 = A * B;
 
             Console.WriteLine("Результат умножения А и В - " + Convert.ToString(res3));
 
