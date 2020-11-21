@@ -6,7 +6,9 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("}{ola Amouuur...!");
+            double res2 = A - B;
+
+            Console.WriteLine("Результат вычитания А и В - " + Convert.ToString(res2));
         }
     }
 }
