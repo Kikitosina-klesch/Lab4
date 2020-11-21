@@ -9,6 +9,7 @@ namespace Test
 
 
 
+
             Console.WriteLine("}{ola Amouuur...!");
 
 
@@ -19,6 +20,8 @@ namespace Test
             Console.WriteLine("Вводи число B ");
             double B = Convert.ToDouble(Console.ReadLine());
 
+            double res1 = A + B;
+            Console.WriteLine("Результатом сложения А и B будет" + Convert.ToString(res1));
 
             double res2 = A - B;
             Console.WriteLine("Результат вычитания А и В - " + Convert.ToString(res2));
@@ -31,6 +34,9 @@ namespace Test
 
             double res4 = A / B;
             Console.WriteLine("Результат деления А на В - "+ Convert.ToString(res4));
+
+
+            
 
         }
     }
